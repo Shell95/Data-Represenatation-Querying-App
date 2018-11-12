@@ -21,25 +21,11 @@ npm install -g @angular/cli
 #create new app
 ng new [name of app]
 
+#Agular Material
+npm install --save @angular/material @angular/cdk @angular/animations
 
+#run app (client 4200)
+ng serve
+ngserve -o
 
-
-
-Microsoft Windows [Version 6.3.9600]
-(c) 2013 Microsoft Corporation. All rights reserved.
-
-C:\Users\Michelle Tolan\Desktop\DataRep>npm install -g @angular/cli
-C:\Users\Michelle Tolan\AppData\Roaming\npm\ng -> C:\Users\Michelle Tolan\AppDat
-a\Roaming\npm\node_modules\@angular\cli\bin\ng
-npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\@an
-gular\cli\node_modules\fsevents):
-npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
-1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
-)
-
-+ @angular/cli@7.0.5
-updated 1 package in 37.712s
-
-C:\Users\Michelle Tolan\Desktop\DataRep>
-
-C:\Users\Michelle Tolan\Desktop\DataRep>
+#Generate component
