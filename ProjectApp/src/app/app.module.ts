@@ -8,6 +8,8 @@ import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 
+
+
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -17,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     SidebarComponent,
     PostsComponent,
     UsersComponent,
-    DetailsComponent,
+    DetailsComponent
 
   ],
   imports: [
